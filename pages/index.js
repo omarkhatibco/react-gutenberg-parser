@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from '../components/head'
 import Parser from '../components/parser'
 
+
 import obj from '../obj.json'
 
 export default () => {
@@ -23,6 +24,11 @@ export default () => {
 
       <div className="row">
         <Parser obj={obj}/>
+        <pre 	style={{
+						fontSize: '.65rem',
+						padding: '.25rem .5rem',
+						overflowX: 'scroll',
+					}}>{JSON.stringify('parse(obj.content.rendered)', null, 2)}</pre>
       </div>
     </div>
     
@@ -46,7 +52,7 @@ export default () => {
         max-width: 880px;
         margin: 80px auto 40px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
       }
       .card {
