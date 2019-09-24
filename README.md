@@ -15,7 +15,8 @@ The problem was that the core components have their own styles and we had no con
 
 ## What is the different from Gatsby and its ecosystem ?
 
-This is not a static site generator. you will able to run it on a server without node or NPM.
+- This is not a static site generator. you will able to run it on a server without node or NPM.
+- Gatsby plugins parse the HTML so you have no control over the syntax, in other side this project should deal directly with attributes.
 
 ## Limitations 
 
