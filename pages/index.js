@@ -2,18 +2,9 @@ import Link from 'next/link'
 import Head from '../components/head'
 import Parser from '../components/parser'
 
-
 import obj from '../obj.json'
 
 export default () => {
-  
-  
-  
-  
-  
-  
-  
-  
   return (
   <div>
     <Head title="Home" />
@@ -24,11 +15,6 @@ export default () => {
 
       <div className="row">
         <Parser obj={obj}/>
-        <pre 	style={{
-						fontSize: '.65rem',
-						padding: '.25rem .5rem',
-						overflowX: 'scroll',
-					}}>{JSON.stringify('parse(obj.content.rendered)', null, 2)}</pre>
       </div>
     </div>
     
