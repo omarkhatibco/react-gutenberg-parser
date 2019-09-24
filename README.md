@@ -1,8 +1,8 @@
 # Gutenberg Parser 
 
-this project Idea to reflect WordPress gutenberg object in RestAPI to dynamicly imported components.
+This project Idea to reflect WordPress gutenberg object in RestAPI to dynamicly imported components.
 
-this will help us to make a full headless dynamic React app with WordPress backend.
+This will help us to make a full headless dynamic React app with WordPress backend.
 
 ## Why ?
 
