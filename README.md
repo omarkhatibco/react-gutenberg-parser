@@ -1,4 +1,4 @@
-# Gutenberg Parser 
+# React Gutenberg Parser 
 
 This project Idea to reflect WordPress gutenberg object in RestAPI to dynamicly imported components.
 
