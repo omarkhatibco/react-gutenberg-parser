@@ -13,7 +13,7 @@ In a previous project I was able to make WordPress & gutenberg 50% headless, so 
 The problem was that the core components have their own styles and we had no control over them in Styling (we can style theme by overridding their style 😷) + normal WordPress theme has some styles and scripts injected in Head which can not be removed.
 
 
-## what is the different from Gatsby and its ecosystem ?
+## What is the different from Gatsby and its ecosystem ?
 
 This is not a static site generator. you will able to run it on a server without node or NPM.
 
